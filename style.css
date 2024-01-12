@@ -1,0 +1,40 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  gap: 5px;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 80px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.reset-btn {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
